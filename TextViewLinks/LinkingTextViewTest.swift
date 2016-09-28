@@ -25,6 +25,7 @@ class LinkingTextViewTest: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
 //        let string = LinkingTextView(string: "[Test: 123]")
+        LinkingTextView(string: "This [link: https://github.com/WhitneyMFoster/LinkingText] calls the delegate and [this one] does nothing", attributes: [NSForegroundColorAttributeName: UIColor.black], linkAttributes: [NSForegroundColorAttributeName: UIColor.blue, NSUnderlineStyleAttributeName: NSUnderlineStyle.styleSingle.rawValue, NSForegroundColorAttributeName: UIColor.green])
     }
     
     func testPerformanceExample() {
