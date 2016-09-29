@@ -7,36 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9765E901D9C6EC6009AE4D0 /* TextViewLinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9765E861D9C6EC6009AE4D0 /* TextViewLinks.framework */; };
-		A9765E951D9C6EC6009AE4D0 /* TextViewLinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9765E941D9C6EC6009AE4D0 /* TextViewLinksTests.swift */; };
-		A9765E971D9C6EC6009AE4D0 /* TextViewLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = A9765E891D9C6EC6009AE4D0 /* TextViewLinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9765EA11D9C6F16009AE4D0 /* LinkingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9765EA01D9C6F16009AE4D0 /* LinkingTextView.swift */; };
-		A9765EA31D9C7298009AE4D0 /* LinkingTextViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9765EA21D9C7298009AE4D0 /* LinkingTextViewTest.swift */; };
-		A9765EA41D9C72E4009AE4D0 /* LinkingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9765EA01D9C6F16009AE4D0 /* LinkingTextView.swift */; };
+		A924162C1D9D8D760098E001 /* LinkingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A924162B1D9D8D760098E001 /* LinkingTextView.swift */; };
+		A92416351D9D8ED00098E001 /* LinkingText.h in Headers */ = {isa = PBXBuildFile; fileRef = A92416271D9D8D5F0098E001 /* LinkingText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A924164F1D9D908A0098E001 /* LinkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A924164E1D9D908A0098E001 /* LinkingUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A9765E911D9C6EC6009AE4D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9765E7D1D9C6EC6009AE4D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9765E851D9C6EC6009AE4D0;
-			remoteInfo = TextViewLinks;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		A9765E861D9C6EC6009AE4D0 /* TextViewLinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextViewLinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9765E891D9C6EC6009AE4D0 /* TextViewLinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewLinks.h; sourceTree = "<group>"; };
-		A9765E8A1D9C6EC6009AE4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9765E8F1D9C6EC6009AE4D0 /* TextViewLinksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewLinksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9765E941D9C6EC6009AE4D0 /* TextViewLinksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewLinksTests.swift; sourceTree = "<group>"; };
-		A9765E961D9C6EC6009AE4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9765EA01D9C6F16009AE4D0 /* LinkingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkingTextView.swift; sourceTree = "<group>"; };
-		A9765EA21D9C7298009AE4D0 /* LinkingTextViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkingTextViewTest.swift; sourceTree = "<group>"; };
+		A92416271D9D8D5F0098E001 /* LinkingText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkingText.h; path = LinkingText/LinkingText.h; sourceTree = SOURCE_ROOT; };
+		A92416291D9D8D700098E001 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LinkingText/Info.plist; sourceTree = SOURCE_ROOT; };
+		A924162B1D9D8D760098E001 /* LinkingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkingTextView.swift; path = LinkingText/LinkingTextView.swift; sourceTree = SOURCE_ROOT; };
+		A924164C1D9D908A0098E001 /* LinkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A924164E1D9D908A0098E001 /* LinkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkingUITests.swift; sourceTree = "<group>"; };
+		A92416501D9D908A0098E001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9765E861D9C6EC6009AE4D0 /* LinkingText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LinkingText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A92416491D9D908A0098E001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9765E821D9C6EC6009AE4D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,22 +37,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9765E8C1D9C6EC6009AE4D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9765E901D9C6EC6009AE4D0 /* TextViewLinks.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A924164D1D9D908A0098E001 /* LinkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A924164E1D9D908A0098E001 /* LinkingUITests.swift */,
+				A92416501D9D908A0098E001 /* Info.plist */,
+			);
+			path = LinkingUITests;
+			sourceTree = "<group>";
+		};
 		A9765E7C1D9C6EC6009AE4D0 = {
 			isa = PBXGroup;
 			children = (
 				A9765E881D9C6EC6009AE4D0 /* TextViewLinks */,
-				A9765E931D9C6EC6009AE4D0 /* TextViewLinksTests */,
+				A924164D1D9D908A0098E001 /* LinkingUITests */,
 				A9765E871D9C6EC6009AE4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,8 +61,8 @@
 		A9765E871D9C6EC6009AE4D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9765E861D9C6EC6009AE4D0 /* TextViewLinks.framework */,
-				A9765E8F1D9C6EC6009AE4D0 /* TextViewLinksTests.xctest */,
+				A9765E861D9C6EC6009AE4D0 /* LinkingText.framework */,
+				A924164C1D9D908A0098E001 /* LinkingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,21 +70,11 @@
 		A9765E881D9C6EC6009AE4D0 /* TextViewLinks */ = {
 			isa = PBXGroup;
 			children = (
-				A9765E891D9C6EC6009AE4D0 /* TextViewLinks.h */,
-				A9765E8A1D9C6EC6009AE4D0 /* Info.plist */,
-				A9765EA01D9C6F16009AE4D0 /* LinkingTextView.swift */,
-				A9765EA21D9C7298009AE4D0 /* LinkingTextViewTest.swift */,
+				A92416271D9D8D5F0098E001 /* LinkingText.h */,
+				A92416291D9D8D700098E001 /* Info.plist */,
+				A924162B1D9D8D760098E001 /* LinkingTextView.swift */,
 			);
 			path = TextViewLinks;
-			sourceTree = "<group>";
-		};
-		A9765E931D9C6EC6009AE4D0 /* TextViewLinksTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9765E941D9C6EC6009AE4D0 /* TextViewLinksTests.swift */,
-				A9765E961D9C6EC6009AE4D0 /* Info.plist */,
-			);
-			path = TextViewLinksTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,16 +84,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9765E971D9C6EC6009AE4D0 /* TextViewLinks.h in Headers */,
+				A92416351D9D8ED00098E001 /* LinkingText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A9765E851D9C6EC6009AE4D0 /* TextViewLinks */ = {
+		A924164B1D9D908A0098E001 /* LinkingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9765E9A1D9C6EC6009AE4D0 /* Build configuration list for PBXNativeTarget "TextViewLinks" */;
+			buildConfigurationList = A92416511D9D908A0098E001 /* Build configuration list for PBXNativeTarget "LinkingUITests" */;
+			buildPhases = (
+				A92416481D9D908A0098E001 /* Sources */,
+				A92416491D9D908A0098E001 /* Frameworks */,
+				A924164A1D9D908A0098E001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkingUITests;
+			productName = LinkingUITests;
+			productReference = A924164C1D9D908A0098E001 /* LinkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A9765E851D9C6EC6009AE4D0 /* LinkingText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9765E9A1D9C6EC6009AE4D0 /* Build configuration list for PBXNativeTarget "LinkingText" */;
 			buildPhases = (
 				A9765E811D9C6EC6009AE4D0 /* Sources */,
 				A9765E821D9C6EC6009AE4D0 /* Frameworks */,
@@ -120,28 +121,10 @@
 			);
 			dependencies = (
 			);
-			name = TextViewLinks;
+			name = LinkingText;
 			productName = TextViewLinks;
-			productReference = A9765E861D9C6EC6009AE4D0 /* TextViewLinks.framework */;
+			productReference = A9765E861D9C6EC6009AE4D0 /* LinkingText.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		A9765E8E1D9C6EC6009AE4D0 /* TextViewLinksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9765E9D1D9C6EC6009AE4D0 /* Build configuration list for PBXNativeTarget "TextViewLinksTests" */;
-			buildPhases = (
-				A9765E8B1D9C6EC6009AE4D0 /* Sources */,
-				A9765E8C1D9C6EC6009AE4D0 /* Frameworks */,
-				A9765E8D1D9C6EC6009AE4D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9765E921D9C6EC6009AE4D0 /* PBXTargetDependency */,
-			);
-			name = TextViewLinksTests;
-			productName = TextViewLinksTests;
-			productReference = A9765E8F1D9C6EC6009AE4D0 /* TextViewLinksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -153,20 +136,20 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = whitney.io;
 				TargetAttributes = {
+					A924164B1D9D908A0098E001 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PTGYW8N2DX;
+						ProvisioningStyle = Automatic;
+					};
 					A9765E851D9C6EC6009AE4D0 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = PTGYW8N2DX;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
-					A9765E8E1D9C6EC6009AE4D0 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PTGYW8N2DX;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
-			buildConfigurationList = A9765E801D9C6EC6009AE4D0 /* Build configuration list for PBXProject "TextViewLinks" */;
+			buildConfigurationList = A9765E801D9C6EC6009AE4D0 /* Build configuration list for PBXProject "LinkingText" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,21 +161,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9765E851D9C6EC6009AE4D0 /* TextViewLinks */,
-				A9765E8E1D9C6EC6009AE4D0 /* TextViewLinksTests */,
+				A9765E851D9C6EC6009AE4D0 /* LinkingText */,
+				A924164B1D9D908A0098E001 /* LinkingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A9765E841D9C6EC6009AE4D0 /* Resources */ = {
+		A924164A1D9D908A0098E001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9765E8D1D9C6EC6009AE4D0 /* Resources */ = {
+		A9765E841D9C6EC6009AE4D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,35 +185,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A92416481D9D908A0098E001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A924164F1D9D908A0098E001 /* LinkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9765E811D9C6EC6009AE4D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9765EA11D9C6F16009AE4D0 /* LinkingTextView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9765E8B1D9C6EC6009AE4D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9765EA41D9C72E4009AE4D0 /* LinkingTextView.swift in Sources */,
-				A9765EA31D9C7298009AE4D0 /* LinkingTextViewTest.swift in Sources */,
-				A9765E951D9C6EC6009AE4D0 /* TextViewLinksTests.swift in Sources */,
+				A924162C1D9D8D760098E001 /* LinkingTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A9765E921D9C6EC6009AE4D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9765E851D9C6EC6009AE4D0 /* TextViewLinks */;
-			targetProxy = A9765E911D9C6EC6009AE4D0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		A92416521D9D908A0098E001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PTGYW8N2DX;
+				INFOPLIST_FILE = LinkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.LinkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A92416531D9D908A0098E001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PTGYW8N2DX;
+				INFOPLIST_FILE = LinkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.LinkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		A9765E981D9C6EC6009AE4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,10 +337,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TextViewLinks/Info.plist;
+				INFOPLIST_FILE = LinkingText/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.TextViewLinks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.LinkingText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -361,38 +358,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TextViewLinks/Info.plist;
+				INFOPLIST_FILE = LinkingText/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.TextViewLinks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.LinkingText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		A9765E9E1D9C6EC6009AE4D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PTGYW8N2DX;
-				INFOPLIST_FILE = TextViewLinksTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.TextViewLinksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		A9765E9F1D9C6EC6009AE4D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PTGYW8N2DX;
-				INFOPLIST_FILE = TextViewLinksTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.whitney.TextViewLinksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -400,7 +371,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9765E801D9C6EC6009AE4D0 /* Build configuration list for PBXProject "TextViewLinks" */ = {
+		A92416511D9D908A0098E001 /* Build configuration list for PBXNativeTarget "LinkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92416521D9D908A0098E001 /* Debug */,
+				A92416531D9D908A0098E001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9765E801D9C6EC6009AE4D0 /* Build configuration list for PBXProject "LinkingText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9765E981D9C6EC6009AE4D0 /* Debug */,
@@ -409,21 +388,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9765E9A1D9C6EC6009AE4D0 /* Build configuration list for PBXNativeTarget "TextViewLinks" */ = {
+		A9765E9A1D9C6EC6009AE4D0 /* Build configuration list for PBXNativeTarget "LinkingText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9765E9B1D9C6EC6009AE4D0 /* Debug */,
 				A9765E9C1D9C6EC6009AE4D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A9765E9D1D9C6EC6009AE4D0 /* Build configuration list for PBXNativeTarget "TextViewLinksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9765E9E1D9C6EC6009AE4D0 /* Debug */,
-				A9765E9F1D9C6EC6009AE4D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
